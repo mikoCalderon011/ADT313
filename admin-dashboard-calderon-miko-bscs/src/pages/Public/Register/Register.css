@@ -1,0 +1,38 @@
+.register-form--container {
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px rgb(218, 218, 218);
+    border-radius: .5rem;
+    box-shadow: 0px 8px 10px #585858;
+}
+
+.text-input--container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.text-input {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.text-input--group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.submit-btn {
+    margin-top: 1.25rem;
+}
+
+.login-container {
+    text-align: center;
+}
